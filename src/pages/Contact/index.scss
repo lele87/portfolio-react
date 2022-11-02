@@ -1,0 +1,128 @@
+.contact-page {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: 0 auto;
+  width: 90%;
+  margin-top: 65px;
+
+  .text-zone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+
+    h1 {
+      font-size: 53px;
+      font-family: 'Coolvetica';
+      color: #ffd700;
+      font-weight: 400;
+      margin-top: 0;
+      position: relative;
+      margin-bottom: 40px;
+      left: 10px;
+    }
+
+    p {
+      color: #fff;
+      font-weight: 300;
+      min-width: fit-content;
+      animation: pulse 1s;
+
+      &:nth-of-type(1) {
+        animation-delay: 1.1s;
+        font-size: 18px;
+      }
+    }
+
+    .contact-form {
+      width: 100%;
+      margin-top: 20px;
+
+      ul {
+        padding: 0;
+        margin: 0;
+
+        li {
+          padding: 0;
+          margin: 0;
+          list-style: none;
+          margin-bottom: 10px;
+          overflow: hidden;
+          position: relative;
+          opacity: 0;
+          animation: fadeInUp 2s 2s;
+          animation-fill-mode: forwards;
+          clear: both;
+        }
+
+        li.half {
+          width: 49%;
+          margin-left: 2%;
+          float: left;
+          clear: none;
+
+          &:first-child {
+            margin-left: 0;
+          }
+        }
+      }
+
+      input[type='text'],
+      input[type='email'] {
+        width: 100%;
+        border: 0;
+        background: #115173;
+        height: 50px;
+        font-size: 16px;
+        color: #fff;
+        padding: 0 20px;
+        box-sizing: border-box;
+      }
+
+      textarea {
+        width: 100%;
+        border: 0;
+        background: #115173;
+        height: 50px;
+        font-size: 16px;
+        color: #fff;
+        padding: 20px;
+        box-sizing: border-box;
+        min-height: 150px;
+      }
+
+      .submit-button {
+        color: #ffd700;
+        background: 0 0;
+        font: 11px;
+        letter-spacing: 3px;
+        text-decoration: none;
+        padding: 8px 10px;
+        border: 1px solid #ffd700;
+        border-radius: 4px;
+        float: right;
+        cursor: pointer;
+      }
+
+      .link--container {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+
+        .link_icon {
+          display: inline;
+
+          a {
+            padding: 7px 0;
+            font-size: 35px;
+            line-height: 16px;
+            margin-right: 10px;
+            margin-left: 10px;
+          }
+        }
+      }
+    }
+  }
+}
