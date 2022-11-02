@@ -1,7 +1,7 @@
 <br>
 <h1 align="center">React Portfolio</h1>
 <div align="center">
-Personal React Portfolio built with React, managing styles with SASS
+Personal Portfolio built with React, managing styles with SASS
 
 </div>
 
