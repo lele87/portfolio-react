@@ -6,12 +6,17 @@
 
   ul {
     display: flex;
+    flex-wrap: wrap;
     padding: 0;
     margin-bottom: 30px;
 
     @media (max-width: 699px) {
       flex-direction: column;
       gap: 45px;
+    }
+    li {
+      flex: 0 0 50%;
+      margin-bottom: 40px;
     }
   }
 }
