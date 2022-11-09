@@ -22,7 +22,7 @@ export const projects = [
     name: 'React Weather App',
     image: './images/works/weatherapp.png',
     description:
-      'Frontend responsive App to show the upcoming weather and the daily forecast of the next week of your favorite city. Developed with React, styles with Styled-Components and React Select Async Paginate.',
+      'Frontend responsive App to show the upcoming weather and the daily forecast of the next week of your favorite cities. Developed with React, styles with Styled-Components and React Select Async Paginate.',
     demoLink: 'https://react-weather-app-emanuele-panesi.netlify.app/',
     sourceLink: 'https://github.com/lele87/react-weather-app',
   },
